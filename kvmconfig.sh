@@ -5,7 +5,7 @@ echo Status of git: $CHECK
 if [ "" = "$CHECK" ]
 then
   echo Installing $PKG ...
-  apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils -y -qq
+  apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils virt-manager virtinst -y -qq
 else
   echo $PKG already installed...
 fi
